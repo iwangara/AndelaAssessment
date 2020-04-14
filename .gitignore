@@ -22,3 +22,4 @@ src/__pycache__
 covid19_estimator_py.egg-info/
 
 src/test.py
+src/ok.py

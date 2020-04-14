@@ -1,6 +1,5 @@
 import math
 
-
 data = {
     "region": {
         "name": "Africa",
@@ -16,7 +15,7 @@ data = {
 }
 
 output_data = {
-    "data": data,
+    "data": {},
     "impact": {},
     "severeImpact": {}
 }
@@ -41,6 +40,7 @@ def ChallengeOne(data):
     """user // to remove decimals"""
     impactInfectionsByRequestedTime=impactCurrentlyInfected * (2**(computeDuration(data) // 3))
     severeInfectionsByRequestedTime =severeImpactCurentlyInfected * (2**(computeDuration(data) // 3))
+    output_data["data"]=data
     output_data["impact"]["infectionsByRequestedTime"] = impactInfectionsByRequestedTime
     output_data["severeImpact"]["infectionsByRequestedTime"] = severeInfectionsByRequestedTime
     return output_data
@@ -98,4 +98,5 @@ def estimator(data):
     ChallengeThree(data)
 
     return output_data
+
 
