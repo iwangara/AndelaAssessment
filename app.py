@@ -48,7 +48,7 @@ def xmlApi():
     except:
         return not_found()
 
-@app.route("/api/v1/on-covid-19/log", methods=["GET"])
+@app.route("/api/v1/on-covid-19/logs", methods=["GET"])
 def send_log():
   message =""
   with open("log.txt","r") as file_ref:
