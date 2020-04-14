@@ -12,3 +12,7 @@
 1586894007		on-covid-19/log		done in 0.0 ms
 1586901298		on-covid-19/logs		done in 0.01 ms
 1586901311		on-covid-19/logs		done in 0.0 ms
+1586901454		on-covid-19/logs		done in 0.0 ms
+1586901460		on-covid-19		done in 0.0 ms
+1586901466		on-covid-19/json		done in 0.0 ms
+1586901472		on-covid-19/xml		done in 0.04 ms
